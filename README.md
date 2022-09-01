@@ -1,3 +1,3 @@
 # Notflix
-son proje
-bu projenin backend taraidir frontende birlesmeyi beklemektedir.
+son proje.
+bu projenin backend tarafidir ve frontend ile birlesmeyi beklemektedir.
