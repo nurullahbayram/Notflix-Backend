@@ -12,14 +12,17 @@ import java.util.List;
 public class MovieController {
     @Autowired
     private MovieServiceImpl movieServiceImpl;
+
     @GetMapping("/all")
     public List<Movie> getMovies(){
         return movieServiceImpl.getMovies();
     }
-    @PostMapping()
+
+    @PostMapping("/add")
     public Movie createMovie(@RequestBody Movie movie){
         return movieServiceImpl.createMovie(movie);
     }
+
     @PutMapping()
     public Movie updateMovie(@RequestBody Movie movie){
         return movieServiceImpl.updateMovie(movie);

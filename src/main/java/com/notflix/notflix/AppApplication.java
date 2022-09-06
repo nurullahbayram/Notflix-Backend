@@ -29,26 +29,26 @@ public class AppApplication implements CommandLineRunner {
                         "Romantic story",
                         "Love",
                         9,
-                        "https://www.google.com/search?q=amelie&rlz=1C1UEAD_enNL999__1000&sxsrf=ALiCzsZ19YjDcYVGQlekWEUwrXaxuez1SQ:1661953620518&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAmbzZm_H5AhUMxQIHHVwaCsQQ_AUoAXoECAIQAw&biw=1280&bih=609&dpr=1.5#imgrc=A7oUDZhhN2q5vM",
-                        "https://www.youtube.com/embed/HUECWi5pX7o"
+                        "https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/amelie-still-0.jpg",
+                        "https://www.youtube.com/embed/UkLkim0HYME"
                 ),
                 new Movie(
                         2,
-                        "Amelie",
-                        "Romantic story",
-                        "Love",
-                        9,
-                        "https://www.google.com/search?q=amelie&rlz=1C1UEAD_enNL999__1000&sxsrf=ALiCzsZ19YjDcYVGQlekWEUwrXaxuez1SQ:1661953620518&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAmbzZm_H5AhUMxQIHHVwaCsQQ_AUoAXoECAIQAw&biw=1280&bih=609&dpr=1.5#imgrc=A7oUDZhhN2q5vM",
-                        "https://www.youtube.com/embed/HUECWi5pX7o"
+                        "Batman Rises",
+                        "Gotham",
+                        "Fantastic",
+                        10,
+                        "https://cdn.britannica.com/49/127649-050-31417AF3/Heath-Ledger-Joker-Christian-Bale-The-Dark-Knight-2008.jpg",
+                        "https://www.youtube.com/embed/XzGiNL3Mxrg"
                 ),
                 new Movie(
                         3,
-                        "Amelie",
-                        "Romantic story",
-                        "Love",
-                        9,
-                        "https://www.google.com/search?q=amelie&rlz=1C1UEAD_enNL999__1000&sxsrf=ALiCzsZ19YjDcYVGQlekWEUwrXaxuez1SQ:1661953620518&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjAmbzZm_H5AhUMxQIHHVwaCsQQ_AUoAXoECAIQAw&biw=1280&bih=609&dpr=1.5#imgrc=A7oUDZhhN2q5vM",
-                        "https://www.youtube.com/embed/HUECWi5pX7o"
+                        "Hulk",
+                        "Green Giant",
+                        "Action",
+                        8,
+                        "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
+                        "https://www.youtube.com/embed/TWu-lNejFwg"
                 )
         ));
 
