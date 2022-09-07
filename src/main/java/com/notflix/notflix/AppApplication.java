@@ -49,6 +49,51 @@ public class AppApplication implements CommandLineRunner {
                         8,
                         "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
                         "https://www.youtube.com/embed/TWu-lNejFwg"
+                ),
+                new Movie(
+                        4,
+                        "SHERLOCK HOLMES",
+                        "SHERLOCK HOLMES AND THE SHADOW WATCHERS - FULL HD THRILLER MOVIE IN ENGLISH",
+                        "Action",
+                        8,
+                        "https://upload.wikimedia.org/wikipedia/en/e/e0/Sherlock_holmes_ver5.jpg",
+                        "https://youtu.be/-9BrAodHbjQ"
+                ),
+                new Movie(
+                        5,
+                        "Spiderman",
+                        "Spider-Man: No Way Home | Full Fan Movie (English)",
+                        "Action",
+                        8,
+                        "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
+                        "https://youtu.be/S8ZUtWTuHT4"
+                ),
+                new Movie(
+                        6,
+                        "Parker",
+                        "PARKER JASON STATHAM JENNİFER LOPEZ FUL ACTİON MOVİE",
+                        "Action",
+                        8,
+                        "https://m.media-amazon.com/images/M/MV5BZGFmOGRhNjctNjZlMi00Yjc0LTkyYjUtMGM1Mjg2NzEzMmZiXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+                        "https://youtu.be/ft5tnZIFyDo"
+                ),
+                new Movie(
+                        7,
+                        "Example Movie",
+                        "Green Giant",
+                        "Action",
+                        8,
+                        "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
+                        "https://www.youtube.com/embed/TWu-lNejFwg"
+                ),
+                new Movie(
+                        8,
+                        "Example Movie",
+                        "Green Giant",
+                        "Action",
+                        8,
+                        "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
+                        "https://www.youtube.com/embed/TWu-lNejFwg"
                 )
         ));
 
