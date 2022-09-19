@@ -34,7 +34,7 @@ public class AppApplication implements CommandLineRunner {
                         "Romantic story",
                         "Love",
                         9,
-                        "https://www.commonsensemedia.org/sites/default/files/styles/ratio_16_9_large/public/screenshots/csm-movie/amelie-still-0.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/5/53/Amelie_poster.jpg",
                         "https://www.youtube.com/embed/UkLkim0HYME"
                 ),
                 new Movie(
@@ -43,7 +43,7 @@ public class AppApplication implements CommandLineRunner {
                         "Gotham",
                         "Fantastic",
                         10,
-                        "https://cdn.britannica.com/49/127649-050-31417AF3/Heath-Ledger-Joker-Christian-Bale-The-Dark-Knight-2008.jpg",
+                        "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Bivc7COzL._AC_SL1500_.jpg",
                         "https://www.youtube.com/embed/XzGiNL3Mxrg"
                 ),
                 new Movie(
@@ -52,53 +52,89 @@ public class AppApplication implements CommandLineRunner {
                         "Green Giant",
                         "Action",
                         8,
-                        "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
+                        "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61ikONHVOAL._AC_SL1096_.jpg",
                         "https://www.youtube.com/embed/TWu-lNejFwg"
                 ),
                 new Movie(
                         4,
-                        "SHERLOCK HOLMES",
-                        "SHERLOCK HOLMES AND THE SHADOW WATCHERS - FULL HD THRILLER MOVIE IN ENGLISH",
-                        "Action",
+                        "Toy Story",
+                        "Synopsis. Set in a world where toys come alive, the world s first computer-animated movie focuses on the toys of Andy Davis.",
+                        "Cartoon",
                         8,
-                        "https://upload.wikimedia.org/wikipedia/en/e/e0/Sherlock_holmes_ver5.jpg",
-                        "https://youtu.be/-9BrAodHbjQ"
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@..jpg",
+                        "https://www.youtube.com/embed/9pn8utbTtnU"
                 ),
                 new Movie(
                         5,
-                        "Spiderman",
-                        "Spider-Man: No Way Home | Full Fan Movie (English)",
+                        "007 Golden Eye",
+                        "When a powerful satellite system goes missing, James Bond (Pierce Brosnan) is the only one who can stop those behind it.",
                         "Action",
                         8,
-                        "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg",
-                        "https://youtu.be/S8ZUtWTuHT4"
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMzk2OTg4MTk1NF5BMl5BanBnXkFtZTcwNjExNTgzNA@@..jpg",
+                        "https://www.youtube.com/embed/rxWkLdgdcPA"
                 ),
                 new Movie(
                         6,
-                        "Parker",
-                        "PARKER JASON STATHAM JENNİFER LOPEZ FUL ACTİON MOVİE",
-                        "Action",
+                        "Four Rooms",
+                        "This anthology film with four stories set in a fading hotel and one character in common is a mixed bag, with one hilarious segment.",
+                        "Comedy",
                         8,
-                        "https://m.media-amazon.com/images/M/MV5BZGFmOGRhNjctNjZlMi00Yjc0LTkyYjUtMGM1Mjg2NzEzMmZiXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
-                        "https://youtu.be/ft5tnZIFyDo"
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc3Y2YwMjUtYzlkMi00MTljLTg1ZGMtYzUwODljZTI1OTZjXkEyXkFqcGdeQXVyMTQxNzMzNDI@..jpg",
+                        "https://www.youtube.com/embed/QNd2ug4gvzM"
                 ),
                 new Movie(
                         7,
-                        "Example Movie",
-                        "Green Giant",
-                        "Action",
+                        "Get Shorty",
+                        "A mobster travels to Hollywood to collect a debt, and discovers that the movie business is much the same as his current job.",
+                        "Comedy",
                         8,
-                        "https://img.moviepostershop.com/batman-movie-poster-1989-1010193890.jpg",
-                        "https://www.youtube.com/embed/TWu-lNejFwg"
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwODYzNDY4Ml5BMl5BanBnXkFtZTcwODkwNTgzNA@@..jpg",
+                        "https://www.youtube.com/embed/rh8OdlSXiDo"
                 ),
                 new Movie(
                         8,
-                        "Example Movie",
+                        "Batman Rises",
+                        "Gotham",
+                        "Fantastic",
+                        10,
+                        "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Bivc7COzL._AC_SL1500_.jpg",
+                        "https://www.youtube.com/embed/XzGiNL3Mxrg"
+                ),
+                new Movie(
+                        9,
+                        "Hulk",
                         "Green Giant",
                         "Action",
                         8,
-                        "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
+                        "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61ikONHVOAL._AC_SL1096_.jpg",
                         "https://www.youtube.com/embed/TWu-lNejFwg"
+                ),
+                new Movie(
+                        10,
+                        "Toy Story",
+                        "Synopsis. Set in a world where toys come alive, the world s first computer-animated movie focuses on the toys of Andy Davis.",
+                        "Cartoon",
+                        8,
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@..jpg",
+                        "https://www.youtube.com/embed/9pn8utbTtnU"
+                ),
+                new Movie(
+                        11,
+                        "007 Golden Eye",
+                        "When a powerful satellite system goes missing, James Bond (Pierce Brosnan) is the only one who can stop those behind it.",
+                        "Action",
+                        8,
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMzk2OTg4MTk1NF5BMl5BanBnXkFtZTcwNjExNTgzNA@@..jpg",
+                        "https://www.youtube.com/embed/rxWkLdgdcPA"
+                ),
+                new Movie(
+                        12,
+                        "Four Rooms",
+                        "This anthology film with four stories set in a fading hotel and one character in common is a mixed bag, with one hilarious segment.",
+                        "Comedy",
+                        8,
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc3Y2YwMjUtYzlkMi00MTljLTg1ZGMtYzUwODljZTI1OTZjXkEyXkFqcGdeQXVyMTQxNzMzNDI@..jpg",
+                        "https://www.youtube.com/embed/QNd2ug4gvzM"
                 )
         ));
 
