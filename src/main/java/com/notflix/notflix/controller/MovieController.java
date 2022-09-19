@@ -21,6 +21,7 @@ public class MovieController {
     @ResponseBody
     public List<Movie> getMovies() {return movieServiceImpl.getMovies();}
 
+
     //http://localhost:8090/api/movie/all/{id}
     @GetMapping(value = {"/all/{id}"})
     @ResponseBody
@@ -29,16 +30,24 @@ public class MovieController {
         return movies.get(0);
     }
 
+//    @GetMapping(value = {"/all/{genre}"})
+//    @ResponseBody
+//    public List<Movie> getEmployeesByIdWithRequired(@PathVariable String genre) {
+//
+//        return movieServiceImpl.getMovies().stream().filter(movie -> movie.getGenre().equals(genre)).toList();
+//    }
+
+
 
     @PostMapping("/add")
     public Movie createMovie(@RequestBody Movie movie) {
         return movieServiceImpl.createMovie(movie);
     }
 
-    @PutMapping()
-    public Movie updateMovie(@RequestBody Movie movie) {
-        return movieServiceImpl.updateMovie(movie);
-    }
+//    @PutMapping()
+//    public Movie updateMovie(@RequestBody Movie movie) {
+//        return movieServiceImpl.updateMovie(movie);
+//    }
 }
 
 

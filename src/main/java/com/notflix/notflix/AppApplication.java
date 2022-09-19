@@ -1,7 +1,9 @@
 package com.notflix.notflix;
 
+import com.notflix.notflix.models.AdminUser;
 import com.notflix.notflix.models.Movie;
 import com.notflix.notflix.repository.MovieRepository;
+import com.notflix.notflix.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +17,9 @@ import java.util.List;
 public class AppApplication implements CommandLineRunner {
     @Autowired
     private MovieRepository movieRepository;
+
+    @Autowired
+    private UserService userService;
 
     public static void main(String[] args) {
         SpringApplication.run(AppApplication.class, args);
@@ -83,7 +88,7 @@ public class AppApplication implements CommandLineRunner {
                         "Green Giant",
                         "Action",
                         8,
-                        "https://thumbs.dreamstime.com/z/hulk-photo-taken-book-cover-82235584.jpg",
+                        "https://img.moviepostershop.com/batman-movie-poster-1989-1010193890.jpg",
                         "https://www.youtube.com/embed/TWu-lNejFwg"
                 ),
                 new Movie(
@@ -96,6 +101,8 @@ public class AppApplication implements CommandLineRunner {
                         "https://www.youtube.com/embed/TWu-lNejFwg"
                 )
         ));
+
+        userService.create(new AdminUser(0,"Admin","password"));
 
         movieRepository.saveAll(movieList);
 
